@@ -17,6 +17,24 @@ body {
     background-color: var(--dark-grey);
 }
 
+.section{
+    background-color: var(--black);
+    padding: 53px 132px;
+    gap: 66px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    object-fit: cover;
+    object-position: bottom;
+    display: block;
+    border-radius: 50%;
+    border: 10px solid var(--orange);
+    height: 300px;
+    width: 300px;
+}
+
 .title {
     font-family: var(--secondary-font);
     font-weight: 400;
@@ -25,4 +43,18 @@ body {
     color: var(--beige);
     margin-top: 105px;
     margin-bottom: 97px;
+}
+
+.text {
+    font-family: var(--primary-font);
+    color: var(--beige);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.big {
+
+    font-weight: 600;
+    font-size: 50px;
 }
