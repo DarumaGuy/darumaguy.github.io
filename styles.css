@@ -54,7 +54,49 @@ body {
 }
 
 .big {
-
     font-weight: 600;
     font-size: 50px;
+}
+
+.social-media {
+    color: var(--beige);
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity .2s;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    gap: 21px;
+}
+
+.social-media:hover {
+    opacity: .8;
+}
+
+.list {
+    list-style: none;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 97px;
+    gap: 108px;
+}
+
+.button {
+    color: var(--dark-grey);
+    font-weight: 900;
+    background-color: var(--orange);
+    text-decoration: none;
+    padding: 33px 117px;
+    border-radius: 20px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: border-radius .2s;
+}
+
+.button:hover {
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
 }
