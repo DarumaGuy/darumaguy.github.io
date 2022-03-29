@@ -3,6 +3,8 @@
     --black: #3A3A3A;
     --dark-grey: #535353;
     --beige: #DDCAA9;
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Prompt', sans-serif; 
 }
 
 * {
@@ -11,5 +13,6 @@
 }
 
 body {
+    font-family: var(--primary-font);
     background-color: var(--orange);
 }
