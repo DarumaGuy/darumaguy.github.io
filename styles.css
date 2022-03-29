@@ -1,6 +1,8 @@
 :root {
     --orange: #FF9416;
-
+    --black: #3A3A3A;
+    --dark-grey: #535353;
+    --beige: #DDCAA9;
 }
 
 * {
