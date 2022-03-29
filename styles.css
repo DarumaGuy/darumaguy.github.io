@@ -14,5 +14,15 @@
 
 body {
     font-family: var(--primary-font);
-    background-color: var(--orange);
+    background-color: var(--dark-grey);
+}
+
+.title {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 69px;
+    text-align: center;
+    color: var(--beige);
+    margin-top: 105px;
+    margin-bottom: 97px;
 }
